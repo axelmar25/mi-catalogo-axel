@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.producto h2 {
+    color: #007bff;
+}
+
+.producto p {
+    margin: 0.5em 0;
+}
+
+.disponible {
+    color: green;
+    font-weight: bold;
+}
+
+.no-disponible {
+    color: red;
+    font-weight: bold;
+}
+
+.whatsapp-btn {
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128c7e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+table thead tr {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+}
